@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Milena Montenegro: tecnologia, inteligência artificial, ensino, capacitação e programação.">
+  <meta name="theme-color" content="#f7f8f4">
+  <title>Milena Montenegro | Portfólio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Milena Montenegro - início">MM<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="navigation" id="navigation" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#ensino">Ensino</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="header-contact" href="#contato">Vamos conversar ↗</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> PORTFÓLIO PROFISSIONAL</div>
+        <p class="hero-kicker" id="profileRole"></p>
+        <h1 id="profileHeadline"></h1>
+        <p class="hero-intro" id="profileIntro"></p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projetos">Conheça meus projetos ↗</a>
+          <a class="quiet-link" href="#contato">Entre em contato ↗</a>
+        </div>
+        <div class="hero-social" id="heroSocial"></div>
+      </div>
+      <div class="hero-visual" aria-label="Elemento gráfico de tecnologia e educação">
+        <div class="visual-circle circle-large"></div>
+        <div class="visual-circle circle-small"></div>
+        <div class="visual-panel">
+          <span class="panel-top">IDEIAS EM MOVIMENTO</span>
+          <div class="panel-symbol">&lt;/&gt;</div>
+          <strong>Conhecimento que se transforma em ação.</strong>
+          <span class="panel-bottom">TECNOLOGIA · EDUCAÇÃO · CRIATIVIDADE</span>
+        </div>
+        <div class="floating-tag tag-one">✦ Inteligência artificial</div>
+        <div class="floating-tag tag-two">▤ Aprendizagem</div>
+      </div>
+    </section>
+
+    <section class="quick-facts" id="highlights"></section>
+
+    <section class="section-wrap about-section" id="portfolio">
+      <div class="section-label">01 / SOBRE MIM</div>
+      <div class="about-content">
+        <div><h2>Olá, sou <span>Milena Montenegro.</span></h2></div>
+        <div>
+          <p class="large-copy" id="profileAbout"></p>
+          <p class="muted-copy">Este portfólio reúne áreas de atuação, experiências de ensino e projetos profissionais.</p>
+          <a class="underlined-link" href="#contato">Fale comigo ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus-section section-wrap">
+      <div class="section-heading">
+        <div><div class="section-label">02 / ÁREAS DE ATUAÇÃO</div><h2>Temas que conectam meu trabalho.</h2></div>
+        <p>Uma atuação que aproxima conhecimento, ferramentas e experiências práticas.</p>
+      </div>
+      <div class="focus-grid" id="focusGrid"></div>
+    </section>
+
+    <section class="section-wrap teaching-section" id="ensino">
+      <div class="section-heading">
+        <div><div class="section-label">03 / ENSINO E CAPACITAÇÃO</div><h2>Aprendizagem com propósito e prática.</h2></div>
+        <p>Experiências docentes, cursos, oficinas e iniciativas formativas.</p>
+      </div>
+      <div class="teaching-list" id="teachingList"></div>
+    </section>
+
+    <section class="projects-section section-wrap" id="projetos">
+      <div class="section-heading">
+        <div><div class="section-label">04 / PROJETOS</div><h2>Ideias que ganham forma.</h2></div>
+        <p>Trabalhos, aplicações, experiências e resultados relevantes.</p>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contato">
+      <div class="contact-copy">
+        <div class="section-label">05 / CONTATO</div>
+        <h2>Tem uma ideia ou oportunidade?</h2>
+        <p>Estou aberta a conversas sobre projetos, ensino, tecnologia, capacitação e parcerias profissionais.</p>
+        <div class="contact-detail"><span>LOCALIZAÇÃO</span><strong id="profileLocation"></strong></div>
+        <div class="contact-detail"><span>DISPONIBILIDADE</span><strong id="profileAvailability"></strong></div>
+        <div class="social-links" id="contactSocial"></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Seu nome<input name="name" type="text" placeholder="Como podemos chamar você?" required></label>
+        <label>Seu e-mail<input name="email" type="email" placeholder="voce@exemplo.com" required></label>
+        <label>Assunto<input name="subject" type="text" placeholder="Sobre o que deseja conversar?"></label>
+        <label>Mensagem<textarea name="message" rows="4" placeholder="Escreva sua mensagem..." required></textarea></label>
+        <button class="button button-dark submit-button" type="submit">Preparar mensagem ↗</button>
+        <p class="form-feedback" id="formFeedback" role="status"></p>
+        <small>O formulário abre seu aplicativo de e-mail. Não há armazenamento de mensagens neste site.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio">Milena Montenegro<span>.</span></a>
+    <p>Portfólio profissional · Tecnologia, ensino e inovação</p>
+    <a href="#inicio">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
